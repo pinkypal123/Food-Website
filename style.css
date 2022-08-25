@@ -188,3 +188,41 @@ footer{
     background-color: black;
     color: blanchedalmond;
 }
+@media screen and (max-width:600px){
+    #navbar ul li a{
+        padding:2px 18px;
+        
+    }
+    #home h1{
+       font-size: 1.5rem;
+    
+    }
+    #home p{
+        font-size: 1rem;
+        
+    
+    }
+    #services{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #clients{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @media screen and (max-width:700px){
+        #services{
+            display:flex;
+           flex-direction: column;
+        } 
+        #home h1{
+            font-size: 1.5rem;
+         
+         }
+         #home p{
+             font-size: 1rem;
+             
+         
+         } 
+    }
+}
